@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Da Live - Baixe e divirta-se</title>
+    <style>
+        /* Reset de estilos padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos globais */
+        body {
+            background-image: url(https://i.postimg.cc/m2XF6wKf/images-2-2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: black;
+            min-height: 100vh; /* Garante que a altura seja ao menos 100% da tela */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        /* Container para os jogos */
+        .content-container {
+            flex: 1; /* Ocupa o espaço restante da tela */
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Cards de jogos */
+        .jogos-populares {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card-jogo {
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            margin-bottom: 20px;}
+
+        .card-jogo img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .card-jogo h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .card-jogo p {
+            font-size: 0.9rem;
+            color: black;
+            margin: 10px 0;
+        }
+
+        .card-jogo .btn {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .card-jogo .btn:hover {
+            background-color: #007bff;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            width: 100%;
+            margin-top: auto; /* Faz o rodapé ficar no final da tela */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>JOGOS DA LIVE</h1>
+        </div>
+        <nav>
+            <a href="index.html">Em breve</a>
+        </nav>
+    </header>
+
+    <!-- Container principal de conteúdo -->
+    <div class="content-container">
+        <!-- Banner ou destaque de jogos -->
+        <section class="destaque">
+            <h2>Jogos Populares</h2>
+            <div class="jogos-populares">
+                <!-- Card de jogo -->
+                <div class="card-jogo">
+                    <img src="https://i.postimg.cc/HLKbx4L9/images-1.jpg" alt="Letroca">
+                    <h3>Letroca</h3>
+                    <p>Um jogo de palavras e raciocínio onde os jogadores devem formar palavras a partir de letras embaralhadas, desafiando seu vocabulário e agilidade mental.</p>
+                    <a href="https://letroca.br.uptodown.com/android" class="btn">Baixar</a>
+                </div>
+
+                <!-- Outro Card de Jogo -->
+                <div class="card-jogo">
+                    <img src="https://i.postimg.cc/zGrtDNQG/images.jpg" alt="Show do Milhão">
+                    <h3>Show Do Milhão</h3>
+                    <p>Uma versão digital do famoso quiz brasileiro, onde os jogadores respondem perguntas de múltipla escolha para acumular pontos e usar ajudas.</p>
+                    <a href="https://smafundev-show-do-milhao.br.uptodown.com/android/download" class="btn">Baixar</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Feito por chrispontes1.0 - Novos jogos serão adicionados conforme forem apresentados na Live, caso queira pedir por algum jogo entre em <a href="https://www.tiktok.com/@chrispontes1.0?_t=ZM-8vZi52QgRYE&_r=1" class="btn">Contato</a></p>
+    </footer>
+</body>
+
+</html>
